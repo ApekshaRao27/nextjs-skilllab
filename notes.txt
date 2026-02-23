@@ -1,0 +1,65 @@
+#####basic keywords
+JavaScript is a programming language used to make web pages interactive.
+
+JavaScript can run in browsers and on servers using Node.js.
+
+JavaScript is commonly used to build web applications with libraries like React.
+
+JavaScript variables can be declared using var, let, and const.
+
+var, let, and const are not data types; they are keywords used to declare variables.
+
+The main data types in JavaScript include string, number, boolean, null, undefined, object, and array.
+
+var is function-scoped, meaning it is accessible anywhere inside the function where it is declared.
+
+var does not follow block scope and can be accessed outside blocks like if, for, and while.
+
+Variables declared with var are not accessible outside the function in which they are declared.
+
+let and const are block-scoped, meaning they are accessible only within the block where they are declared.
+
+Variables declared with let can be reassigned, while variables declared with const cannot be reassigned.
+
+Variables declared in the global scope can be accessed inside functions.
+
+Variables declared inside a function cannot be accessed outside that function.
+
+In modern JavaScript, let and const should be preferred over var.
+
+The use of var is discouraged in new code because it can cause unexpected behavior due to its scoping rules.
+
+
+
+#####JavaScript Hoisting – Things to Remember (Notes)
+
+Hoisting is JavaScript’s behavior of moving variable and function declarations to the top of their scope during execution.
+
+Variables declared with var are hoisted and initialized with undefined.
+
+Variables declared with let and const are hoisted but are not initialized, so accessing them before declaration causes an error.
+
+Accessing a var variable before its declaration does not throw an error but returns undefined.
+
+Accessing a let or const variable before its declaration results in a ReferenceError due to the temporal dead zone.
+
+Hoisting behavior is another reason why var is discouraged in modern JavaScript.
+
+
+#########javascript functions
+
+A function is a reusable block of code that performs a specific task.
+
+Functions help organize code and reduce repetition.
+
+A function can take inputs called parameters and can return a value using the return keyword.
+
+Calling a function executes the code inside the function.
+
+Assigning a function to a variable stores the function definition, not the function’s return value.
+
+The return value of a function is produced only when the function is called.
+
+The return value must be stored in a variable or used directly; otherwise, it is lost.
+
+Functions create their own scope, and variables declared inside a function are not accessible outside it
